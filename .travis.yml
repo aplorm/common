@@ -4,4 +4,4 @@ php:
 install:
   - composer install
 script:
-  - sh phpunit
+  - vendor/bin/phpunit  --coverage-html public/coverage
