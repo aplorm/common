@@ -1,0 +1,29 @@
+{
+    "name": "aplorm/common",
+    "description": "Common librarie for orm",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aplorm\\Common\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aplorm\\Common\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nicolas moral",
+            "email": "n.moral@live.fr"
+        }
+    ],
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "phpstan/phpstan-symfony": "^0.12.4"
+    }
+}
