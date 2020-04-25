@@ -9,5 +9,4 @@ script:
 after_script:
   # upload coverage.xml file to Coveralls to analyze it
   # minimal required coverage is set to 80+ %
-  - wget https://github.com/php-coveralls/php-coveralls/releases/download/v2.2.0/php-coveralls.phar
   - php php-coveralls.phar --verbose
