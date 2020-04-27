@@ -2,9 +2,6 @@
     "name": "aplorm/common",
     "description": "Common librarie for orm",
     "type": "library",
-    "require": {
-        "phpunit/phpunit": "^9.0"
-    },
     "autoload": {
         "psr-4": {
             "Aplorm\\Common\\": "src/"
@@ -24,6 +21,7 @@
     ],
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
-        "phpstan/phpstan-symfony": "^0.12.4"
+        "phpstan/phpstan-symfony": "^0.12.4",
+        "phpunit/phpunit": "^9.0"
     }
 }
