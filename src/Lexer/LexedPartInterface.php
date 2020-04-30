@@ -20,4 +20,5 @@ interface LexedPartInterface
     public const VARIABLE_PART = 'variables';
     public const FUNCTION_PART = 'functions';
     public const USE_PART = 'use';
+    public const TRAITS_PART = 'traits';
 }
