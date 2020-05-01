@@ -19,6 +19,17 @@ use PHPUnit\Framework\TestCase;
  */
 abstract class AbstractTest extends TestCase
 {
+
+    final public function setUp(): void
+    {
+        $this->doSetup();
+    }
+
+    final public function tearDown(): void
+    {
+        $this->doTearDown();
+    }
+
     /**
      * function call in setUp function.
      */
