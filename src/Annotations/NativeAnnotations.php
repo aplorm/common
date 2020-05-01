@@ -48,11 +48,11 @@ interface NativeAnnotations
         'used-by',
         'version',
         'codeCoverageIgnore',
-    ];
-
-    public const TYPE_ANNOTATIONS = [
         'var',
         'param',
         'return',
+    ];
+
+    public const TYPE_ANNOTATIONS = [
     ];
 }
