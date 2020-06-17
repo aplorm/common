@@ -23,7 +23,11 @@ interface DataConfigurationInterface
      */
     public function getClassAnnotations(): iterable;
 
-    public function getClassAnnotation(string $annotation): AnnotationInterface;
+    /**
+     * @param string $annotation
+     * @return AnnotationInterface|AnnotationInterface[]
+     */
+    public function getClassAnnotation(string $annotation);
 
     /**
      * @return AttributeConfigurationInterface[]
