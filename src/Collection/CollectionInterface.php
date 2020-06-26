@@ -10,7 +10,7 @@
 
 declare(strict_types=1);
 
-namespace Aplorm\Common;
+namespace Aplorm\Common\Collection;
 
 interface CollectionInterface extends \Iterator, \ArrayAccess, \Countable
 {
