@@ -24,4 +24,10 @@ interface AnnotedDataInterface
      * @return AnnotationInterface|AnnotationInterface[]
      */
     public function getAnnotation(string $annotation);
+
+    /**
+     * @param string $annotation
+     * @return bool
+     */
+    public function hasAnnotation(string $annotation): bool;
 }
