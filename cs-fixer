@@ -1,2 +1,2 @@
 #!/bin/bash
-vendor/bin/php-cs-fixer fix -v --show-progress=estimating-max --diff-format=udiff
+vendor/bin/php-cs-fixer fix -vvv --show-progress=estimating-max --diff-format=udiff
