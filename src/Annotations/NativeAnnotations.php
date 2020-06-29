@@ -14,7 +14,6 @@ namespace Aplorm\Common\Annotations;
 
 interface NativeAnnotations
 {
-
     public const EXCLUED_ANNOTATIONS = [
         'example',
         'internal',

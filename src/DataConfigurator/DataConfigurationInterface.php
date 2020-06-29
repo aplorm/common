@@ -12,10 +12,6 @@ declare(strict_types=1);
 
 namespace Aplorm\Common\DataConfigurator;
 
-use Aplorm\DataConfigurator\Exceptions\AnnotationNotFoundException;
-use Aplorm\DataConfigurator\Exceptions\AttributeNotFoundException;
-use Aplorm\DataConfigurator\Exceptions\MethodNotFoundException;
-
 interface DataConfigurationInterface
 {
     /**
@@ -24,7 +20,6 @@ interface DataConfigurationInterface
     public function getClassAnnotations(): iterable;
 
     /**
-     * @param string $annotation
      * @return AnnotationInterface|AnnotationInterface[]
      */
     public function getClassAnnotation(string $annotation);

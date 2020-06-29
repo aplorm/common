@@ -12,8 +12,6 @@ declare(strict_types=1);
 
 namespace Aplorm\Common\DataConfigurator;
 
-use Aplorm\DataConfigurator\Exceptions\ParameterNotFoundException;
-
 interface MethodConfigurationInterface extends AnnotedDataInterface, ScopedDataInterface
 {
     public function getReturnType(): ?string;
